@@ -1,0 +1,23 @@
+{
+  "name": "rateit",
+  "version": "1.0.0",
+  "description": "This is a MERN stack project, where people can look up real-estate brokerages and specific licensed agents in NY, and rate them based on their services, and and review comments for future purchase or sale of their property and make educated decisions!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinghHarmandeep/rateit.git"
+  },
+  "author": "Harmandeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SinghHarmandeep/rateit/issues"
+  },
+  "homepage": "https://github.com/SinghHarmandeep/rateit#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.37.1"
+  }
+}
