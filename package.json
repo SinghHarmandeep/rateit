@@ -1,10 +1,14 @@
 {
   "name": "rateit",
   "version": "1.0.0",
-  "description": "This is a MERN stack project, where people can look up real-estate brokerages and specific licensed agents in NY, and rate them based on their services, and and review comments for future purchase or sale of their property and make educated decisions!",
+  "description": "rate your real estate agent",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:build": "npx webpack -w",
+    "build": "npx webpack",
+    "start": "node dist/server.js",
+    "dev": "npm-run-all --parallel watch:*",
+    "watch:server": "nodemon dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,10 @@
   "homepage": "https://github.com/SinghHarmandeep/rateit#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "webpack": "^5.37.1"
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-node-externals": "^3.0.0"
   }
 }
